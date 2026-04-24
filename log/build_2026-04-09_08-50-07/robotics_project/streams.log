@@ -1,0 +1,40 @@
+[0.024s] Invoking command in '/home/nour/robotics_ws/build/robotics_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nour/robotics_ws/build/robotics_project -- -j24 -l24
+[0.220s] Invoked command in '/home/nour/robotics_ws/build/robotics_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nour/robotics_ws/build/robotics_project -- -j24 -l24
+[0.234s] Invoking command in '/home/nour/robotics_ws/build/robotics_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nour/robotics_ws/build/robotics_project
+[0.245s] -- Install configuration: ""
+[0.247s] -- Execute custom install script
+[0.250s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//launch/gz_rviz_display.launch.py
+[0.251s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//urdf/arm_assembly.csv
+[0.251s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//urdf/arm_assembly.urdf
+[0.251s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//rviz/config.rviz
+[0.252s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//config/joint_controller.yaml
+[0.252s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//config/joint_names_arm_assembly.yaml
+[0.252s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/arm_1_link.STL
+[0.252s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/arrm_2_link.STL
+[0.252s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/base_link.STL
+[0.252s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/finger_l_link.STL
+[0.253s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/finger_l_link_old.STL
+[0.253s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/finger_r_link.STL
+[0.253s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/finger_r_link_old.STL
+[0.253s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/geared_l_link.STL
+[0.253s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/geared_r_link.STL
+[0.254s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/shoulder_link.STL
+[0.254s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/wrist_1_link.STL
+[0.254s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project//meshes/wrist_2_link.STL
+[0.254s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/lib/robotics_project/gripper_command_node.py
+[0.255s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/ament_index/resource_index/package_run_dependencies/robotics_project
+[0.255s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/ament_index/resource_index/parent_prefix_path/robotics_project
+[0.255s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/environment/ament_prefix_path.sh
+[0.255s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/environment/ament_prefix_path.dsv
+[0.255s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/environment/path.sh
+[0.256s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/environment/path.dsv
+[0.256s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/local_setup.bash
+[0.256s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/local_setup.sh
+[0.256s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/local_setup.zsh
+[0.256s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/local_setup.dsv
+[0.256s] -- Symlinking: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/package.dsv
+[0.268s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/ament_index/resource_index/packages/robotics_project
+[0.268s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/cmake/robotics_projectConfig.cmake
+[0.269s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/cmake/robotics_projectConfig-version.cmake
+[0.269s] -- Up-to-date symlink: /home/nour/robotics_ws/install/robotics_project/share/robotics_project/package.xml
+[0.270s] Invoked command in '/home/nour/robotics_ws/build/robotics_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nour/robotics_ws/build/robotics_project

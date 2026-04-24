@@ -1,0 +1,107 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # Hz
+    arm_group_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    hand_group_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    forward_position_controller:
+      type: forward_command_controller/ForwardCommandController
+
+arm_group_controller:
+  ros__parameters:
+    joints:
+      - shoulder_joint
+      - arm_1_joint
+      - arm_2_joint
+      - wrist_1_joint
+      - wrist_2_joint
+    interface_name:
+      - position
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    open_loop_control: true
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0
+
+      shoulder_joint:
+        trajectory: 0.05
+        goal: 0.03
+
+      arm_1_joint:
+        trajectory: 0.05
+        goal: 0.03
+
+      arm_2_joint:
+        trajectory: 0.05
+        goal: 0.03
+
+      wrist_1_joint:
+        trajectory: 0.05
+        goal: 0.03
+
+      wrist_2_joint:
+        trajectory: 0.05
+        goal: 0.03
+
+hand_group_controller:
+  ros__parameters:
+    joints:
+    - geared_r_joint
+    - geared_l_joint
+    - finger_r_joint
+    - finger_l_joint
+    interface_name:
+      - position
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    open_loop_control: true
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0
+
+    geared_r_joint:
+      trajectory: 0.05
+      goal: 0.03
+    geared_l_joint:
+      trajectory: 0.05
+      goal: 0.03
+    finger_r_joint:
+      trajectory: 0.05
+      goal: 0.03
+    finger_l_joint:
+      trajectory: 0.05
+      goal: 0.03
+    # gains: # Optional, but recommended for better control
+    #   geared_r_joint: {p: 500.0, i: 10.0, d: 10.0}
+    #   geared_l_joint: {p: 500.0, i: 10.0, d: 10.0}
+
+forward_position_controller:
+  ros__parameters:
+    joints:
+      - shoulder_joint
+      - arm_1_joint
+      - arm_2_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - geared_l_joint
+      - geared_r_joint
+      - finger_l_joint
+      - finger_r_joint
+    interface_name: position

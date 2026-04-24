@@ -1,0 +1,1 @@
+/home/nour/robotics_ws/build/robotics_project/ament_cmake_core/robotics_projectConfig.cmake

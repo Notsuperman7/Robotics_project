@@ -1,0 +1,1 @@
+/home/nour/robotics_ws/src/moveit_pkg/launch/setup_assistant.launch.py

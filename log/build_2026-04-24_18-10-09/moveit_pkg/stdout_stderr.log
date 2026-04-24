@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nour/robotics_ws/build/moveit_pkg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/ament_index/resource_index/package_run_dependencies/moveit_pkg
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/ament_index/resource_index/parent_prefix_path/moveit_pkg
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/environment/path.sh
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/environment/path.dsv
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/local_setup.bash
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/local_setup.sh
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/local_setup.zsh
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/local_setup.dsv
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/package.dsv
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/ament_index/resource_index/packages/moveit_pkg
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/cmake/moveit_pkgConfig.cmake
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/cmake/moveit_pkgConfig-version.cmake
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/package.xml
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/demo.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/gazebo_display.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/move_group.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/moveit_rviz.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/rsp.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/setup_assistant.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/spawn_controllers.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/launch/warehouse_db.launch.py
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/arm_assembly.ros2_control.xacro
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/arm_assembly.srdf
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/arm_assembly.urdf.xacro
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/initial_positions.yaml
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/joint_limits.yaml
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/kinematics.yaml
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/moveit.rviz
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/moveit_controllers.yaml
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/ros2_controllers.yaml
+-- Symlinking: /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/.setup_assistant

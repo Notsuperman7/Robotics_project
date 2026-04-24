@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by
+Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot name="arm_assembly">
+  <link name="world" />
+  <joint name="base_world_joint" type="fixed">
+    <parent link="world" />
+    <child link="base_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.049324 -0.050004 0.023619"
+        rpy="0 0 0" />
+      <mass
+        value="0.24179" />
+      <inertia
+        ixx="0.00031616"
+        ixy="-3.231E-08"
+        ixz="-1.4721E-06"
+        iyy="0.00034841"
+        iyz="-8.2186E-09"
+        izz="0.00056511" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="shoulder_link">
+    <inertial>
+      <origin
+        xyz="-0.01642 0.026663 4.5383E-10"
+        rpy="0 0 0" />
+      <mass
+        value="0.083149" />
+      <inertia
+        ixx="5.1618E-05"
+        ixy="5.7239E-06"
+        ixz="1.2037E-12"
+        iyy="4.3009E-05"
+        iyz="-7.4942E-13"
+        izz="5.3421E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/shoulder_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/shoulder_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="shoulder_joint"
+    type="revolute">
+    <origin
+      xyz="-0.04975 -0.05 0.0506"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="shoulder_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="arm_1_link">
+    <inertial>
+      <origin
+        xyz="-0.067 -0.0088325 0.0064325"
+        rpy="0 0 0" />
+      <mass
+        value="0.18263" />
+      <inertia
+        ixx="4.3498E-05"
+        ixy="-4.0889E-05"
+        ixz="-4.0889E-05"
+        iyy="0.00061508"
+        iyz="-1.355E-06"
+        izz="0.00061508" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/arm_1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/arm_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_1_joint"
+    type="revolute">
+    <origin
+      xyz="0 0.05 0"
+      rpy="-1.5708 0 -1.5708" />
+    <parent
+      link="shoulder_link" />
+    <child
+      link="arm_1_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="arrm_2_link">
+    <inertial>
+      <origin
+        xyz="0.021418 1.4132E-05 -0.018236"
+        rpy="0 0 0" />
+      <mass
+        value="0.11424" />
+      <inertia
+        ixx="2.8434E-05"
+        ixy="9.5439E-08"
+        ixz="6.9021E-07"
+        iyy="7.4983E-05"
+        iyz="-1.5866E-09"
+        izz="8.5335E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/arrm_2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/arrm_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="arm_2_joint"
+    type="revolute">
+    <origin
+      xyz="-0.137 0 -0.0024"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="arm_1_link" />
+    <child
+      link="arrm_2_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.873"
+      upper="2.269"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="wrist_1_link">
+    <inertial>
+      <origin
+        xyz="0.020714 -0.0054239 -0.00017492"
+        rpy="0 0 0" />
+      <mass
+        value="0.038269" />
+      <inertia
+        ixx="9.4187E-06"
+        ixy="4.7853E-09"
+        ixz="1.7523E-07"
+        iyy="5.7368E-06"
+        iyz="-1.5989E-10"
+        izz="1.1361E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/wrist_1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/wrist_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wrist_1_joint"
+    type="revolute">
+    <origin
+      xyz="0.0776 0.00525 -0.0151"
+      rpy="0 0 0" />
+    <parent
+      link="arrm_2_link" />
+    <child
+      link="wrist_1_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="wrist_2_link">
+    <inertial>
+      <origin
+        xyz="-0.0054965 0.0031022 -0.028056"
+        rpy="0 0 0" />
+      <mass
+        value="0.028662" />
+      <inertia
+        ixx="5.1487E-06"
+        ixy="6.829E-07"
+        ixz="-1.4139E-06"
+        iyy="8.2956E-06"
+        iyz="9.021E-07"
+        izz="5.7017E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/wrist_2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/wrist_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wrist_2_joint"
+    type="revolute">
+    <origin
+      xyz="0.033 -0.00544 0"
+      rpy="-0.050977 0.94745 3.1273" />
+    <parent
+      link="wrist_1_link" />
+    <child
+      link="wrist_2_link" />
+    <axis
+      xyz="0.81193 0.029745 -0.583" />
+    <limit
+      lower="-0.785"
+      upper="0.785"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="geared_r_link">
+    <inertial>
+      <origin
+        xyz="-0.0069954 0.0072095 0.0014279"
+        rpy="0 0 0" />
+      <mass
+        value="0.0038122" />
+      <inertia
+        ixx="1.5043E-07"
+        ixy="-2.4068E-08"
+        ixz="1.1802E-07"
+        iyy="6.8511E-07"
+        iyz="1.0386E-08"
+        izz="5.5129E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/geared_r_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/geared_r_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="geared_r_joint"
+    type="revolute">
+    <origin
+      xyz="-0.017172 0.0094779 -0.024547"
+      rpy="0.0091611 -0.47376 -0.02123" />
+    <parent
+      link="wrist_2_link" />
+    <child
+      link="geared_r_link" />
+    <axis
+      xyz="0.0083501 -0.99919 -0.039351" />
+    <limit
+      lower="-0.5"
+      upper="0.7"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="finger_r_link">
+    <inertial>
+      <origin
+        xyz="0.00425 0.0045132 -0.03189"
+        rpy="0 0 0" />
+      <mass
+        value="0.0067468" />
+      <inertia
+        ixx="2.1424E-06"
+        ixy="1.5545E-11"
+        ixz="8.1167E-12"
+        iyy="1.9948E-06"
+        iyz="4.6677E-07"
+        izz="2.2885E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/finger_r_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/finger_r_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_r_joint"
+    type="revolute">
+    <origin
+      xyz="-0.028821 -0.0051594 0.0076671"
+      rpy="0.68876 -0.039361 1.5792" />
+    <parent
+      link="geared_r_link" />
+    <child
+      link="finger_r_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-0.41"
+      upper="0.574"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="geared_l_link">
+    <inertial>
+      <origin
+        xyz="0.0055788 0.003 -0.00060197"
+        rpy="0 0 0" />
+      <mass
+        value="0.004953" />
+      <inertia
+        ixx="1.7709E-07"
+        ixy="-2.8671E-18"
+        ixz="-1.7358E-08"
+        iyy="8.3857E-07"
+        iyz="-5.6631E-19"
+        izz="6.912E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/geared_l_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/geared_l_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="geared_l_joint"
+    type="revolute">
+    <origin
+      xyz="0.0046395 0.013762 -0.040092"
+      rpy="0.42357 1.4749 0.43021" />
+    <parent
+      link="wrist_2_link" />
+    <child
+      link="geared_l_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-0.5"
+      upper="0.7"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+  <link
+    name="finger_l_link">
+    <inertial>
+      <origin
+        xyz="0.00425 0.0045132 -0.03189"
+        rpy="0 0 0" />
+      <mass
+        value="0.0067468" />
+      <inertia
+        ixx="2.1424E-06"
+        ixy="1.5545E-11"
+        ixz="8.1185E-12"
+        iyy="1.9948E-06"
+        iyz="4.6677E-07"
+        izz="2.2885E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/finger_l_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.69804 0.69804 0.69804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robotics_project/meshes/finger_l_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="finger_l_joint"
+    type="revolute">
+    <origin
+      xyz="0.03 0 0.0021147"
+      rpy="0.48168 0 -1.5708" />
+    <parent
+      link="geared_l_link" />
+    <child
+      link="finger_l_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-0.41"
+      upper="0.574"
+      effort="100.0"
+      velocity="3.0" />
+  </joint>
+
+  <ros2_control name="arm_assembly" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+    <joint name="shoulder_joint">
+      <command_interface name="position">
+        <param name="min">0</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="arm_1_joint">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="arm_2_joint">
+      <command_interface name="position">
+        <param name="min">-0.873</param>
+        <param name="max">2.269</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="wrist_1_joint">
+      <command_interface name="position">
+        <param name="min">0</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="wrist_2_joint">
+      <command_interface name="position">
+        <param name="min">-0.785</param>
+        <param name="max">0.785</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="geared_r_joint">
+      <command_interface name="position">
+        <param name="min">-0.5</param>
+        <param name="max">0.7</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="geared_l_joint">
+      <command_interface name="position">
+        <param name="min">-0.5</param>
+        <param name="max">0.7</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="finger_r_joint">
+      <command_interface name="position">
+        <param name="min">-0.41</param>
+        <param name="max">0.574</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+
+    <joint name="finger_l_joint">
+      <command_interface name="position">
+        <param name="min">-0.41</param>
+        <param name="max">0.574</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="gz_ros2_control-system"
+      name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>
+        /home/nour/robotics_ws/install/robotics_project/share/robotics_project/config/joint_controller.yaml </parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,9 @@
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/uninstall.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/robotics_project_uninstall.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/test.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/edit_cache.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/rebuild_cache.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/list_install_components.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/install.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/install/local.dir
+/home/nour/robotics_ws/build/robotics_project/CMakeFiles/install/strip.dir

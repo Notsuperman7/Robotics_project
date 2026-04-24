@@ -1,0 +1,4 @@
+Invoking command in '/home/nour/robotics_ws/build/robotics_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nour/robotics_ws/build/robotics_project -- -j24 -l24
+Invoked command in '/home/nour/robotics_ws/build/robotics_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nour/robotics_ws/build/robotics_project -- -j24 -l24
+Invoking command in '/home/nour/robotics_ws/build/robotics_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nour/robotics_ws/build/robotics_project
+Invoked command in '/home/nour/robotics_ws/build/robotics_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nour/robotics_ws/build/robotics_project

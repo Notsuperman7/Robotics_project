@@ -1,0 +1,12 @@
+# Default initial positions for arm_assembly's ros2_control fake system
+
+initial_positions:
+  arm_1_joint: 0.0
+  arm_2_joint: 0.0
+  finger_l_joint: 0.0
+  finger_r_joint: 0.0
+  geared_l_joint: 0.0
+  geared_r_joint: 0.0
+  shoulder_joint: 0.0
+  wrist_1_joint: 0.0
+  wrist_2_joint: 0.0

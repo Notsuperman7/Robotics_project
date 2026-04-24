@@ -1,0 +1,6 @@
+Invoking command in '/home/nour/robotics_ws/build/moveit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nour/robotics_ws/src/moveit_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nour/robotics_ws/install/moveit_pkg
+Invoked command in '/home/nour/robotics_ws/build/moveit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/nour/robotics_ws/src/moveit_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nour/robotics_ws/install/moveit_pkg
+Invoking command in '/home/nour/robotics_ws/build/moveit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nour/robotics_ws/build/moveit_pkg -- -j24 -l24
+Invoked command in '/home/nour/robotics_ws/build/moveit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/nour/robotics_ws/build/moveit_pkg -- -j24 -l24
+Invoking command in '/home/nour/robotics_ws/build/moveit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nour/robotics_ws/build/moveit_pkg
+Invoked command in '/home/nour/robotics_ws/build/moveit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/nour/robotics_ws/build/moveit_pkg
