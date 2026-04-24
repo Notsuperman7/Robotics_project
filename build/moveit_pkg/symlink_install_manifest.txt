@@ -32,4 +32,5 @@
 /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/moveit_controllers.yaml
 /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/pilz_cartesian_limits.yaml
 /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/ros2_controllers.yaml
+/home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/config/sensors_3d.yaml
 /home/nour/robotics_ws/install/moveit_pkg/share/moveit_pkg/.setup_assistant

@@ -26,3 +26,4 @@ moveit_simple_controller_manager:
       - finger_l_joint
       - geared_r_joint
       - finger_r_joint
+    

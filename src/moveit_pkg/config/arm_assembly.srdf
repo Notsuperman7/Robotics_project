@@ -37,24 +37,31 @@
         <joint name="wrist_1_joint" value="1.4919"/>
         <joint name="wrist_2_joint" value="0.785"/>
     </group_state>
-    <group_state name="pick_left_pose" group="arm_group">
-        <joint name="arm_1_joint" value="1.57"/>
-        <joint name="arm_2_joint" value="0.2307"/>
+    <group_state name="pick_mid_pose" group="arm_group">
+        <joint name="arm_1_joint" value="0"/>
+        <joint name="arm_2_joint" value="-0.873"/>
         <joint name="shoulder_joint" value="0"/>
-        <joint name="wrist_1_joint" value="1.4919"/>
-        <joint name="wrist_2_joint" value="0.785"/>
+        <joint name="wrist_1_joint" value="0"/>
+        <joint name="wrist_2_joint" value="0"/>
     </group_state>
     <group_state name="closed_hand_pose" group="hand_group">
-        <joint name="finger_l_joint" value="0.0249"/>
-        <joint name="finger_r_joint" value="0.063"/>
-        <joint name="geared_l_joint" value="0.1564"/>
-        <joint name="geared_r_joint" value="0.1564"/>
+        <joint name="finger_l_joint" value="0.3449"/>
+        <joint name="finger_r_joint" value="0.3449"/>
+        <joint name="geared_l_joint" value="0.3449"/>
+        <joint name="geared_r_joint" value="0.3449"/>
     </group_state>
     <group_state name="opened_hand_pose" group="hand_group">
-        <joint name="finger_l_joint" value="0"/>
-        <joint name="finger_r_joint" value="0"/>
-        <joint name="geared_l_joint" value="0"/>
-        <joint name="geared_r_joint" value="0"/>
+        <joint name="finger_l_joint" value="-0.41"/>
+        <joint name="finger_r_joint" value="-0.41"/>
+        <joint name="geared_l_joint" value="-0.5"/>
+        <joint name="geared_r_joint" value="-0.5"/>
+    </group_state>
+    <group_state name="left_side_pick" group="arm_group">
+        <joint name="arm_1_joint" value="1.57"/>
+        <joint name="arm_2_joint" value="2.269"/>
+        <joint name="shoulder_joint" value="0"/>
+        <joint name="wrist_1_joint" value="-1.57"/>
+        <joint name="wrist_2_joint" value="0.039"/>
     </group_state>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="arm_1_link" link2="arrm_2_link" reason="Adjacent"/>

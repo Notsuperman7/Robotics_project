@@ -35,24 +35,24 @@ arm_group_controller:
       goal_time: 0.0
 
       shoulder_joint:
-        trajectory: 0.05
-        goal: 0.03
+        trajectory: 0.1
+        goal: 0.1
 
       arm_1_joint:
-        trajectory: 0.05
-        goal: 0.03
+        trajectory: 0.1
+        goal: 0.1
 
       arm_2_joint:
-        trajectory: 0.05
-        goal: 0.03
+        trajectory: 0.1
+        goal: 0.1
 
       wrist_1_joint:
-        trajectory: 0.05
-        goal: 0.03
+        trajectory: 0.1
+        goal: 0.1
 
       wrist_2_joint:
-        trajectory: 0.05
-        goal: 0.03
+        trajectory: 0.1
+        goal: 0.1
 
 hand_group_controller:
   ros__parameters:
