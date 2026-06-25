@@ -1,1 +1,0 @@
-/home/nour/robotics_ws/src/robotics_project/launch/gz_display.launch.py

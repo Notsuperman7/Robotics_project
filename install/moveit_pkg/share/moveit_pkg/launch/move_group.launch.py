@@ -1,1 +1,0 @@
-/home/nour/robotics_ws/src/moveit_pkg/launch/move_group.launch.py

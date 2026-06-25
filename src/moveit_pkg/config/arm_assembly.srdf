@@ -31,15 +31,15 @@
         <joint name="wrist_2_joint" value="0"/>
     </group_state>
     <group_state name="pick_right_pose" group="arm_group">
-        <joint name="arm_1_joint" value="-1.57"/>
+        <joint name="arm_1_joint" value="-1.51"/>
         <joint name="arm_2_joint" value="-0.2307"/>
         <joint name="shoulder_joint" value="0"/>
         <joint name="wrist_1_joint" value="1.4919"/>
-        <joint name="wrist_2_joint" value="0.785"/>
+        <joint name="wrist_2_joint" value="0.755"/>
     </group_state>
     <group_state name="pick_mid_pose" group="arm_group">
         <joint name="arm_1_joint" value="0"/>
-        <joint name="arm_2_joint" value="-0.873"/>
+        <joint name="arm_2_joint" value="-0.863"/>
         <joint name="shoulder_joint" value="0"/>
         <joint name="wrist_1_joint" value="0"/>
         <joint name="wrist_2_joint" value="0"/>
@@ -57,10 +57,10 @@
         <joint name="geared_r_joint" value="-0.5"/>
     </group_state>
     <group_state name="left_side_pick" group="arm_group">
-        <joint name="arm_1_joint" value="1.57"/>
-        <joint name="arm_2_joint" value="2.269"/>
+        <joint name="arm_1_joint" value="1.51"/>
+        <joint name="arm_2_joint" value="2.259"/>
         <joint name="shoulder_joint" value="0"/>
-        <joint name="wrist_1_joint" value="-1.57"/>
+        <joint name="wrist_1_joint" value="-1.51"/>
         <joint name="wrist_2_joint" value="0.039"/>
     </group_state>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->

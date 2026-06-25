@@ -1,1 +1,0 @@
-/home/nour/robotics_ws/src/robotics_project/launch/rviz_display.launch.py

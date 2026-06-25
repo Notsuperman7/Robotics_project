@@ -1,1 +1,0 @@
-/home/nour/robotics_ws/build/moveit_pkg/ament_cmake_environment_hooks/local_setup.sh

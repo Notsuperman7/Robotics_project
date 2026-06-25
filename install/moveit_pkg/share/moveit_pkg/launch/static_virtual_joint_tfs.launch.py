@@ -1,1 +1,0 @@
-/home/nour/robotics_ws/src/moveit_pkg/launch/static_virtual_joint_tfs.launch.py
